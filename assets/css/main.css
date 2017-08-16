@@ -1,5 +1,150 @@
+body {
+  background-color: #251A1A;
+  height: 100%;
+  padding-top: 10px; }
+
+.cast--title {
+  position: relative;
+  top: 10vh;
+  padding-left: 25vh;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  padding-top: 2vh 0 2vh;
+  z-index: 1; }
+
+.cast--name {
+  color: #EED850;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 40px; }
+
+.cast--paragraph {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 13px;
+  font-weight: 100; }
+
+.cast--title__right {
+  position: relative;
+  top: 10vh;
+  padding-left: -15vh;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  padding-top: 2vh 0 2vh;
+  z-index: 1; }
+
+#movie-info {
+  background-color: #251A1A;
+  height: 100%;
+  padding-top: 150px; }
+
+.movie--year {
+  color: rgba(255, 255, 255, 0.51); }
+
+.movie--title {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif; }
+
+.movie--paragraph {
+  color: rgba(255, 255, 255, 0.51);
+  font-family: "Roboto", sans-serif; }
+
+.label--color {
+  color: #ffffff; }
+
+.label--span__color {
+  color: #EED850; }
+
+.awards--title {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px; }
+
+.awards--paragraph {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif; }
+
+.awards--see-more {
+  color: #EED850;
+  font-family: "Roboto", sans-serif; }
+
+.awards--see-more2 {
+  color: #EED850;
+  font-family: "Roboto", sans-serif;
+  margin-top: 237px; }
+
+.details--colorText {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif; }
+
+.detail-p {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif; }
+
+.detail-p span {
+  color: #EED850;
+  font-family: "Roboto", sans-serif; }
+
+.review--title {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif; }
+
+.review--title__subtitulo {
+  font-weight: 700;
+  color: #ffffff; }
+
+.reviews p {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif; }
+
+.reviews span {
+  color: #EED850;
+  font-family: "Roboto", sans-serif; }
+
+.form-control {
+  width: 500px;
+  align-self: stretch center;
+  margin-top: 100px; }
+
+.glyphicon-search {
+  padding-left: 100px;
+  margin-top: 100px; }
+
+.peli {
+  margin-top: 50px;
+  margin-left: 260px; }
+
+.search--name {
+  margin-left: 130px;
+  margin-top: 50px;
+  color: #ffffff;
+  width: 400px; }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .form-control {
+    width: 300px;
+    align-self: stretch center;
+    margin-top: 100px; }
+
+  .glyphicon-search {
+    padding-left: 10px;
+    margin-top: 100px;
+    color: white; }
+
+  .peli {
+    margin-top: 50px;
+    margin-left: 255px; }
+
+  .search--name {
+    margin-left: 70px;
+    margin-top: 50px;
+    font-size: 10px;
+    color: #ffffff; } }
 body, html {
   height: 100%; }
+
+.container-fluid {
+  height: 100vh; }
 
 .bottom {
   margin-bottom: 0; }
@@ -34,6 +179,30 @@ a i {
   a i:hover {
     color: #EED850; }
 
+.detail-container {
+  margin-top: 15vh; }
+
+.text-bold {
+  color: #ffffff !important;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 1vh; }
+
+.title-light {
+  color: #ffffff !important;
+  font-weight: 300;
+  font-size: 2.3rem;
+  margin-top: 0px !important;
+  margin-bottom: 1vh; }
+
+.text-regular {
+  color: #ffffff !important;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin: 0px !important; }
+  .text-regular .top-number {
+    color: #EED850; }
+
 .yellow-text-regular {
   color: #EED850;
   font-weight: 400; }
@@ -47,6 +216,13 @@ a i {
 .block-height-large {
   margin-top: 25vh; }
 
+.margin {
+  margin: 2vh;
+  padding: 0; }
+
+.padding {
+  padding: 2vh; }
+
 .vertical-paddig {
   padding: 2vh 0 2vh; }
 
@@ -56,10 +232,22 @@ a i {
 .right-padding {
   padding-right: 2vh; }
 
+.font-white {
+  color: #ffffff; }
+
 .bg-white {
   background-color: #ffffff; }
 
+.bg-white.b-radius-l {
+  border-radius: 10px 0px 0px 10px; }
+
+.bg-yellow.b-radius-r {
+  border-radius: 0px 10px 10px 0px; }
+
 .bg-yellow {
   background-color: #EED850; }
+
+.img-responsive {
+  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
